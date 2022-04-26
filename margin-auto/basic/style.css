@@ -1,0 +1,26 @@
+.item {
+  background-color: orange;
+  width: 50%;
+  /* width: calc(50% - 80px); */
+  height: auto;
+  /* box-sizing: border-box; */
+}
+
+.item:nth-child(even) {
+  margin-left: auto;
+}
+
+.item-inside {
+  padding: 40px;
+}
+
+/* .item:nth-child(even) {
+  margin-left: 50%;
+}
+.item:nth-child(odd) {
+  margin-right: 50%;
+} */
+
+/* 
+width:auto 는 컨테이닝블록만큼 가득 찬다. 직계부모.
+height는 자식 기준. 따라서 초기에 컨텐츠가 없으면 높이가 설정되지 않느다 */
